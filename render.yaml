@@ -49,3 +49,5 @@ services:
         generateValue: true
       - key: MYSQL_ROOT_PASSWORD
         generateValue: true
+      - key: PORT
+        generateValue: 3306
