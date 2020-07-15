@@ -45,9 +45,9 @@ services:
         value: mysql
       - key: MYSQL_USER
         value: mysql
+      - key: PORT
+        value: 3306
       - key: MYSQL_PASSWORD
         generateValue: true
       - key: MYSQL_ROOT_PASSWORD
         generateValue: true
-      - key: PORT
-        generateValue: 3306
